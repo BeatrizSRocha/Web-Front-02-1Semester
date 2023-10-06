@@ -8,5 +8,5 @@ document.write('Olá Mundo!');
 console.log("Olá sou a Beatriz!")
 
 // Criando uma variável
-left mensagem = "Olá Mundo!";
+let mensagem = "Olá Mundo!";
 console.log(mensagem);
