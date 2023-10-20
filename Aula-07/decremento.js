@@ -9,3 +9,6 @@ console.log(valor)
 
 valor *= 4;
 console.log(valor)
+
+valor /= 4;
+console.log(valor)
