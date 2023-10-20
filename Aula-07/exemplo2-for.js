@@ -1,4 +1,4 @@
-const frutas = ["maça","banana","uva","pera"]
+const frutas = ["maça","banana","uva","pera"] // Array
 for(let i=0; i<frutas.length; i++){
     console.log(`${i} - ${frutas[i]}`);
 }
