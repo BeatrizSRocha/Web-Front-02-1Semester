@@ -1,6 +1,9 @@
 const button = document.querySelector("button");
 const poupup = document.querySelector(".poupup-wrapper");
 
+const clickOpen=function(){
+    poupup.classList.add("d-block");
+}
 button.addEventListener("click",function(){
     poupup.classList.add("d-block");
 });
