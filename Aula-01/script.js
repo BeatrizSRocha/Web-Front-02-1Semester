@@ -9,3 +9,17 @@ function imc(){
     return result
 }
 imc();
+function vp(result){
+    if (result<=18,5){
+        console.log('Baixo peso')
+    }
+    else if (result==18,5 && result >= 24,99){
+        console.log('Normal')
+    }
+    else if (result){
+        console.log('Sobrepeso')
+    }
+    else{
+        console.log('Obesidade')
+    }
+}
