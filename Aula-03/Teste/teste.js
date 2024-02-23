@@ -11,7 +11,9 @@ const textoUsuario=document.querySelector('#filmeInput')
 
 btn1.addEventListener('click',()=>{
     listaFilmes.append(itemLista) // Adicionando li na lista
-    itemLista.innerHTML=textoUsuario.value
+    itemLista.innerHTML=textoUsuario.value // Adiciona o texto do input na lista
+    itemLista.classList.add(active) // Adiciona uma classe
+    itemLista.style.backgroundColor="red" // Muda o CSS
 })
 
 // btn1.addEventListener('click',()=>{
