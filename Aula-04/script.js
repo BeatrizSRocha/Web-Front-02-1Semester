@@ -30,6 +30,6 @@ window.onload = function carregarFilmes(){ // Quando a página for carregada ir�
     for(let i=0; i<filmes.length;i++){ // Irá parar de rodar quando o i for menor que o array
         let itemLista=document.createElement('li') // Criando um novo elemento
         listaFilmes.append(itemLista) // Adicionado  na lista
-        itemLista.innerHTML=filmes[i].lancamento // Colocar i para cada vez que rodar, adicionar um novo filme
+        itemLista.innerHTML=filmes[i].lancamento 
     }
 }
