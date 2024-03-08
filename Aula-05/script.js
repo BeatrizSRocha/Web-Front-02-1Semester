@@ -18,4 +18,4 @@
 
 // const nomes=JSON.parse(localStorage.getItem(nomeJson))
 
-// https://github.com/CavMCarolina/Atividades-JS/commits?author=caiooliveira-tech
+// https://github.com/caiooliveira-tech/Atividades-JS
